@@ -11,3 +11,5 @@ Como podemos ver en la siguiente captura, mi PC no dispone de ningún puente.
 
 ### - 2.2 Crear un interfaz virtual y asignarlo al interfaz de la tarjeta wifi, si se tiene, o del fijo, si no se tiene.
 ![Ejercicio2.2](https://dl.dropbox.com/s/y1r2blz6hwmaeei/ejercicio2.2IV2.png)
+
+Como muestra el anterior volcado de pantalla, primero creamos el puente ya que no disponía de ninguno en mi PC, le asignamos eth0 (tarjeta fija) para finalmente mostrar las interfaces, incluida la que he creado.
