@@ -20,20 +20,24 @@ Como muestra el anterior volcado de pantalla, primero creamos el puente ya que n
 En primer lugar instalamos debootstrap con sudo apt-get instal debootstrap.
 
 Seguidamente lanzamos la siguiente orden en nuestra consola para instalar la versión quantal: sudo debootstrap --arch=amd64 saucy /home/jaulas/saucy/ http://archive.ubuntu.com/ubuntu
+![ejercicio2](https://dl.dropbox.com/s/nj7ka6i41b1qkuw/ejercicio2I2.png)
 
-Ahora con chroot cambiamos el root del sistema montado y vemos lo que contiene.
+Ahora con chroot cambiamos el root del sistema montado y vemos lo que contiene, o simplemente hacemos ls en el directorio.
+![ejercicio2](https://dl.dropbox.com/s/nj7ka6i41b1qkuw/ejercicio2V2.png)
 
 
 ### - 3.2 Experimentar con la creación de un sistema Fedora dentro de Debian usando Rinse.
 En primer lugar instalamos rinse con:
 sudo apt-get install rinse
 Seguidamente visualizamos las distintas distribuciones que tiene.
+![ejercicio2](https://dl.dropbox.com/s/nj7ka6i41b1qkuw/ejercicio2V2.png)
 
 Procedemos a instalar la de fedora 7 utilizando rinse con la siguiente linea de comandos:
 sudo rinse --arch i386 --distribution fedora-core-7 --directory /home/jaulas/fedora
+![ejercicio2](https://dl.dropbox.com/s/nj7ka6i41b1qkuw/ejercicio2I.png)
 
 Finlmente tras la instalación, vemos el contenido haciendo ls.
-
+![ejercicio2](https://dl.dropbox.com/s/nj7ka6i41b1qkuw/ejercicio2IV2.ng)
 
 
 ### EJERCICIO 4:
