@@ -13,3 +13,18 @@ Como podemos ver en la siguiente captura, mi PC no dispone de ningún puente.
 ![Ejercicio2.2](https://dl.dropbox.com/s/y1r2blz6hwmaeei/ejercicio2.2IV2.png)
 
 Como muestra el anterior volcado de pantalla, primero creamos el puente ya que no disponía de ninguno en mi PC, le asignamos eth0 (tarjeta fija) para finalmente mostrar las interfaces, incluida la que he creado.
+
+
+### EJERCICIO 3:
+### - 3.1 Usar debootstrap (o herramienta similar en otra distro) para crear un sistema mínimo que se pueda ejecutar más adelante.
+
+
+
+### - 3.2 Experimentar con la creación de un sistema Fedora dentro de Debian usando Rinse.
+
+
+
+
+
+### EJERCICIO 4:
+### Instalar alguna sistema debianita y configurarlo para su uso. Trabajando desde terminal, probar a ejecutar alguna aplicación o instalar las herramientas necesarias para compilar una y ejecutarla.
