@@ -20,10 +20,10 @@ Como muestra el anterior volcado de pantalla, primero creamos el puente ya que n
 En primer lugar instalamos debootstrap con sudo apt-get instal debootstrap.
 
 Seguidamente lanzamos la siguiente orden en nuestra consola para instalar la versión quantal: sudo debootstrap --arch=amd64 saucy /home/jaulas/saucy/ http://archive.ubuntu.com/ubuntu
-![ejercicio2](https://dl.dropbox.com/s/nj7ka6i41b1qkuw/ejercicio2I2.png)
+![ejercicio3](https://dl.dropbox.com/s/8yuz8ib9xc2tpfp/tema2.png)
 
 Ahora con chroot cambiamos el root del sistema montado y vemos lo que contiene, o simplemente hacemos ls en el directorio.
-![ejercicio2](https://dl.dropbox.com/s/nj7ka6i41b1qkuw/ejercicio2V2.png)
+![ejercicio3](https://dl.dropbox.com/s/je8xqdj71rutnes/tema2.1.png)
 
 
 ### - 3.2 Experimentar con la creación de un sistema Fedora dentro de Debian usando Rinse.
