@@ -19,10 +19,11 @@ Como muestra el anterior volcado de pantalla, primero creamos el puente ya que n
 ### - 3.1 Usar debootstrap (o herramienta similar en otra distro) para crear un sistema mínimo que se pueda ejecutar más adelante.
 En primer lugar instalamos debootstrap con sudo apt-get instal debootstrap.
 
-Seguidamente lanzamos la siguiente orden en nuestra consola para instalar la versión quantal: sudo debootstrap --arch=amd64 saucy /home/jaulas/saucy/ http://archive.ubuntu.com/ubuntu
+Seguidamente lanzamos la siguiente orden en nuestra consola para instalar la versión quantal: sudo debootstrap --arch=amd64 quantal /home/jaulas/quantal/ http://archive.ubuntu.com/ubuntu
 ![ejercicio3](https://dl.dropbox.com/s/8yuz8ib9xc2tpfp/tema2.png)
 
 Ahora con chroot cambiamos el root del sistema montado y vemos lo que contiene, o simplemente hacemos ls en el directorio.
+
 ![ejercicio3](https://dl.dropbox.com/s/je8xqdj71rutnes/tema2.1.png)
 
 
