@@ -31,13 +31,14 @@ Ahora con chroot cambiamos el root del sistema montado y vemos lo que contiene, 
 En primer lugar instalamos rinse con:
 sudo apt-get install rinse
 Seguidamente visualizamos las distintas distribuciones que tiene.
+
 ![ejercicio3](https://dl.dropbox.com/s/je2tniqkq9o5ud5/e.png)
 
-Procedemos a instalar la de fedora 7 utilizando rinse con la siguiente linea de comandos:
+Procedemos a instalar la de centos 6 utilizando rinse con la siguiente linea de comandos:
 sudo rinse --arch i386 --distribution centos-6 --directory /home/jaulas/cuatro
 
 Finlmente tras la instalación, vemos el contenido haciendo ls.
-![ejercicio2](https://dl.dropbox.com/s/40iyd1jfar7i3v7/centos.png)
+![ejercicio3](https://dl.dropbox.com/s/40iyd1jfar7i3v7/centos.png)
 
 
 ### EJERCICIO 4:
@@ -45,4 +46,11 @@ Finlmente tras la instalación, vemos el contenido haciendo ls.
 Inicialmente, aprovechando los sistemas instalados anteriormente, voy a realizar el trabajo sobre uno de ellos.
 
 A continuación, accedemos a la jaula de nuestro sistema operativo ejecutando "chroot /ruta de la jaula"
+![ejercicio4](https://dl.dropbox.com/s/c90rrbdg5t3947k/ejj.png)
+
+Ahora, muestro la instalación de una aplicación dentro del sistema enjaulado.
+
+
+
+
 
