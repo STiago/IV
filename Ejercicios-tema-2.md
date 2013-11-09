@@ -34,11 +34,15 @@ Seguidamente visualizamos las distintas distribuciones que tiene.
 ![ejercicio3](https://dl.dropbox.com/s/je2tniqkq9o5ud5/e.png)
 
 Procedemos a instalar la de fedora 7 utilizando rinse con la siguiente linea de comandos:
-sudo rinse --arch i386 --distribution fedora-core-7 --directory /home/jaulas/fedora
+sudo rinse --arch i386 --distribution centos-6 --directory /home/jaulas/cuatro
 
 Finlmente tras la instalación, vemos el contenido haciendo ls.
-![ejercicio2](https://dl.dropbox.com/s/7dh85mi7hwz90tp/1.png)
+![ejercicio2](https://dl.dropbox.com/s/40iyd1jfar7i3v7/centos.png)
 
 
 ### EJERCICIO 4:
 ### Instalar alguna sistema debianita y configurarlo para su uso. Trabajando desde terminal, probar a ejecutar alguna aplicación o instalar las herramientas necesarias para compilar una y ejecutarla.
+Inicialmente, aprovechando los sistemas instalados anteriormente, voy a realizar el trabajo sobre uno de ellos.
+
+A continuación, accedemos a la jaula de nuestro sistema operativo ejecutando "chroot /ruta de la jaula"
+
