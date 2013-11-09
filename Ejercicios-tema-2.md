@@ -48,7 +48,8 @@ Inicialmente, aprovechando los sistemas instalados anteriormente, voy a realizar
 A continuación, accedemos a la jaula de nuestro sistema operativo ejecutando "chroot /ruta de la jaula"
 ![ejercicio4](https://dl.dropbox.com/s/c90rrbdg5t3947k/ejj.png)
 
-Ahora, muestro la instalación de una aplicación dentro del sistema enjaulado.
+Ahora, muestro la instalación (instalamos nano)de una aplicación dentro del sistema enjaulado.
+![ejercicio4](https://dl.dropbox.com/s/uudt48kmd7lpskx/nano.png)
 
 
 
