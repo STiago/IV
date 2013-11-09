@@ -31,7 +31,7 @@ Ahora con chroot cambiamos el root del sistema montado y vemos lo que contiene, 
 En primer lugar instalamos rinse con:
 sudo apt-get install rinse
 Seguidamente visualizamos las distintas distribuciones que tiene.
-![ejercicio2](https://dl.dropbox.com/s/nj7ka6i41b1qkuw/ejercicio2V2.png)
+![ejercicio3](https://dl.dropbox.com/s/je2tniqkq9o5ud5/e.png)
 
 Procedemos a instalar la de fedora 7 utilizando rinse con la siguiente linea de comandos:
 sudo rinse --arch i386 --distribution fedora-core-7 --directory /home/jaulas/fedora
