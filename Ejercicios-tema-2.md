@@ -48,8 +48,17 @@ Inicialmente, aprovechando los sistemas instalados anteriormente, voy a realizar
 A continuación, accedemos a la jaula de nuestro sistema operativo ejecutando "chroot /ruta de la jaula"
 ![ejercicio4](https://dl.dropbox.com/s/c90rrbdg5t3947k/ejj.png)
 
-Ahora, muestro la instalación (instalamos nano)de una aplicación dentro del sistema enjaulado.
+Ahora, muestro la instalación (instalamos nano)de una aplicación que calcula si un numero es par o es impar dentro del sistema enjaulado.
 ![ejercicio4](https://dl.dropbox.com/s/uudt48kmd7lpskx/nano.png)
+
+Aplicación:
+![ejercicio4](https://dl.dropbox.com/s/8bi6tnu0qz23fp7/parimpar.png)
+
+Como hemos observado, funciona nano en el sistema, por lo tanto queda el objetivo de instalar la aplicacion y que funcione al ejecutarla.
+
+### EJERCICIO 5:
+###
+
 
 
 
