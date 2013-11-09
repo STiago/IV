@@ -19,7 +19,7 @@ Como muestra el anterior volcado de pantalla, primero creamos el puente ya que n
 ### - 3.1 Usar debootstrap (o herramienta similar en otra distro) para crear un sistema mínimo que se pueda ejecutar más adelante.
 En primer lugar instalamos debootstrap con sudo apt-get instal debootstrap.
 
-Seguidamente lanzamos la siguiente orden en nuestra consola para instalar la versión quantal: sudo debootstrap --arch=amd64 quantal /home/jaulas/quantal/ http://archive.ubuntu.com/ubuntu
+Seguidamente lanzamos la siguiente orden en nuestra consola para instalar la versión quantal: sudo debootstrap --arch=amd64 saucy /home/jaulas/quantal/ http://archive.ubuntu.com/ubuntu
 ![ejercicio3](https://dl.dropbox.com/s/8yuz8ib9xc2tpfp/tema2.png)
 
 Ahora con chroot cambiamos el root del sistema montado y vemos lo que contiene, o simplemente hacemos ls en el directorio.
@@ -35,10 +35,9 @@ Seguidamente visualizamos las distintas distribuciones que tiene.
 
 Procedemos a instalar la de fedora 7 utilizando rinse con la siguiente linea de comandos:
 sudo rinse --arch i386 --distribution fedora-core-7 --directory /home/jaulas/fedora
-![ejercicio2](https://dl.dropbox.com/s/nj7ka6i41b1qkuw/ejercicio2I.png)
 
 Finlmente tras la instalación, vemos el contenido haciendo ls.
-![ejercicio2](https://dl.dropbox.com/s/nj7ka6i41b1qkuw/ejercicio2IV2.ng)
+![ejercicio2](https://dl.dropbox.com/s/7dh85mi7hwz90tp/1.png)
 
 
 ### EJERCICIO 4:
