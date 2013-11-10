@@ -85,7 +85,18 @@ Tras instalarlo, procedemos a hacerlo funcionar. CON curl desde consola hacemos 
 
 
 ### EJERCICIO 6:
-###
+### Crear una jaula y enjaular un usuario usando jailkit, que previamente se habrá tenido que instalar.
 
+En primer lugar descargamos jailkit de "http://olivier.sessink.nl/jailkit/index.html#download"
 
+![ejercicio5](https://dl.dropbox.com/s/2opt3nr3tm7dx03/algo.png)
 
+Descomprimimos el paquete y lanzamos en consola "./configure && make && sudo make install
+" y seguidamente procedemos a crear el sistema de ficheros con permisos para root con "sudo mkdir -p /seguro/jaulas/dorada"
+y "sudo chown -R root:root /seguro"
+
+Una vez realizado lo anterior, cramos la jaula con la shell, el editor de textos y herramientas de redes con "sudo jk_init -v -j /seguro/jaulas/dorada jk_lsh basicshell netutils editors"
+
+Posteriormente creamos al usuario que va a estar en la jaula y al cual vamos a encerrar en ella con "sudo adduser user" y " sudo jk_jailuser -m -j /seguro/jaulas/dorada user"
+
+Ahora editamos el fichero de configuracion del usuario que se encuentra en  “/seguro/jaulas/dorada/etc/passwd” y cambiamos en el jk_lsh por /bin/bash
