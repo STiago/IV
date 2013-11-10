@@ -10,6 +10,7 @@ Como podemos ver en la siguiente captura, mi PC no dispone de ningún puente.
 ![ejercicio2](https://dl.dropbox.com/s/nj7ka6i41b1qkuw/ejercicio2IV2.png)
 
 ### - 2.2 Crear un interfaz virtual y asignarlo al interfaz de la tarjeta wifi, si se tiene, o del fijo, si no se tiene.
+
 ![Ejercicio2.2](https://dl.dropbox.com/s/y1r2blz6hwmaeei/ejercicio2.2IV2.png)
 
 Como muestra el anterior volcado de pantalla, primero creamos el puente ya que no disponía de ninguno en mi PC, le asignamos eth0 (tarjeta fija) para finalmente mostrar las interfaces, incluida la que he creado.
@@ -20,6 +21,7 @@ Como muestra el anterior volcado de pantalla, primero creamos el puente ya que n
 En primer lugar instalamos debootstrap con sudo apt-get instal debootstrap.
 
 Seguidamente lanzamos la siguiente orden en nuestra consola para instalar la versión quantal: sudo debootstrap --arch=amd64 saucy /home/jaulas/quantal/ http://archive.ubuntu.com/ubuntu
+
 ![ejercicio3](https://dl.dropbox.com/s/8yuz8ib9xc2tpfp/tema2.png)
 
 Ahora con chroot cambiamos el root del sistema montado y vemos lo que contiene, o simplemente hacemos ls en el directorio.
@@ -38,6 +40,7 @@ Procedemos a instalar la de centos 6 utilizando rinse con la siguiente linea de 
 sudo rinse --arch i386 --distribution centos-6 --directory /home/jaulas/cuatro
 
 Finlmente tras la instalación, vemos el contenido haciendo ls.
+
 ![ejercicio3](https://dl.dropbox.com/s/40iyd1jfar7i3v7/centos.png)
 
 
