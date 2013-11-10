@@ -77,7 +77,7 @@ Seguidamente instalamos nginx con lo que sigue a continuación:
     make install
 
 Tras instalarlo, procedemos a hacerlo funcionar. CON curl desde consola hacemos que muestre el contenido de la página principal del servidor.
-![ejercicio5](https://dl..dropbox.com/s/m4p0f8p4571sp7q/ngi.png)
+![ejercicio5](https://dl.dropbox.com/s/m4p0f8p4571sp7q/ngi.png)
 
 
 ### EJERCICIO 6:
