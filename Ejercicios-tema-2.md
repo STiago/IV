@@ -43,7 +43,7 @@ Finlmente tras la instalación, vemos el contenido haciendo ls.
 
 ### EJERCICIO 4:
 ### Instalar alguna sistema debianita y configurarlo para su uso. Trabajando desde terminal, probar a ejecutar alguna aplicación o instalar las herramientas necesarias para compilar una y ejecutarla.
-Inicialmente, aprovechando los sistemas instalados anteriormente, voy a realizar el trabajo sobre uno de ellos.
+Inicialmente, aprovechando el sitema centos-6 instalado anteriormente, voy a realizar el trabajo sobre el.
 
 A continuación, accedemos a la jaula de nuestro sistema operativo ejecutando "chroot /ruta de la jaula"
 ![ejercicio4](https://dl.dropbox.com/s/c90rrbdg5t3947k/ejj.png)
@@ -57,10 +57,31 @@ Aplicación:
 Como hemos observado, funciona nano en el sistema, por lo tanto queda el objetivo de instalar la aplicacion y que funcione al ejecutarla.
 
 ### EJERCICIO 5:
+### Instalar una jaula chroot para ejecutar el servidor web de altas prestaciones nginx.
+
+Como en el ejercicio anterior, vamos a usar la máquina de centos que hemos instalado anteriormente para ejecutar nginx.
+Pimero lo instalamos con el paquete "apt-get install wget" con el cual nos vamos a descargar desde internet nginx "wget http://nginx.org/download/nginx-1.4.0.tar.gz"
+![ejercicio5](https://dl.dropbox.com/s/diz9fwr7rv7t0sx/nginx.png)
+
+Ahora vamos a entrar en el directorio y lo configuramos instalando previamente lo siguiente:
+
+    apt-get install gcc 
+    apt-get install libpcre3 libpcre3-dev
+    apt-get install zlib1g-dev
+    apt-get install make
+    ./configure
+
+Seguidamente instalamos nginx con lo que sigue a continuación:
+
+    make
+    make install
+
+Tras instalarlo, procedemos a hacerlo funcionar. CON curl desde consola hacemos que muestre el contenido de la página principal del servidor.
+![ejercicio5](https://dl..dropbox.com/s/m4p0f8p4571sp7q/ngi.png)
+
+
+### EJERCICIO 6:
 ###
-
-
-
 
 
 
