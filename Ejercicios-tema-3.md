@@ -16,5 +16,28 @@ Ahora, con la línea `lxc-checkconfig` comprobamos que todo va correctamente y q
 
 
 
+
 ## EJERCICIO 2
 ### Comprobar qué interfaces puente ha creado y explicarlos.
+
+
+## EJERCICIO 3
+ 
+###- Crear y ejecutar un contenedor basado en Debian.
+
+###- Crear y ejecutar un contenedor basado en otra distribución, tal como Fedora. Nota En general, crear un contenedor basado en tu distribución y otro basado en otra que no sea la tuya.
+
+
+
+## EJERCICIO 4
+
+
+###-Instalar lxc-webpanel y usarlo para arrancar, parar y visualizar las máquinas virtuales que se tengan instaladas.
+
+###-Desde el panel restringir los recursos que pueden usar: CPU shares, CPUs que se pueden usar (en sistemas multinúcleo) o cantidad de memoria.
+
+
+
+## EJERCICIO 5
+
+### Instalar juju y, usándolo, instalar MediaWiki en un táper.
