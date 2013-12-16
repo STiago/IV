@@ -20,14 +20,23 @@ Ahora, con la línea `lxc-checkconfig` comprobamos que todo va correctamente y q
 ## EJERCICIO 2
 ### Comprobar qué interfaces puente ha creado y explicarlos.
 
+Como muestra la siguiente captura de pantalla, con 'brctl show' nos muestra que se ha creado el puente.
+
 ![Ejercicio2](https://dl.dropbox.com/s/7cwjglzu9ahwg17/tema3.3.png)
 
 ## EJERCICIO 3
  
 ###- Crear y ejecutar un contenedor basado en Debian.
+ 
+Inicialmente me creo mi contenedor de ubuntu introduciendo en consola lo siguiente:
+  `lxc-create -t ubuntu-cloud -n contenedor`   
+Seguidamente, tras ejecutar `lxc-start -n contenedor` entramos en nuestro sistema.
+Nuestro usuario y password van a ser "ubuntu".
+ 
+###- Crear y ejecutar un contenedor basado en otra distribución, tal como Fedora. Nota En general, clxc-create -t ubuntu-cloud -n contenedorbasado en tu distribución y otro basado en otra que no sea la tuya.
 
-###- Crear y ejecutar un contenedor basado en otra distribución, tal como Fedora. Nota En general, crear un contenedor basado en tu distribución y otro basado en otra que no sea la tuya.
-
+Instalamos curl y yum ya que nos dara un error al crear fedora si no los tenemos instalados.
+A continuación, realizamos de igual forma que en el apartado anterior incluyendo `sudo lxc-create -t fedora -n fedora14 -- -R 14` 
 
 
 ## EJERCICIO 4
@@ -35,8 +44,17 @@ Ahora, con la línea `lxc-checkconfig` comprobamos que todo va correctamente y q
 
 ###-Instalar lxc-webpanel y usarlo para arrancar, parar y visualizar las máquinas virtuales que se tengan instaladas.
 
+Instalamos lxc-webpanel introduciendo en consola la siguiente línea de comandos:
+`wget http://lxc-webpanel.github.io/tools/install.sh -O | sudo bash`
+seguidamente, comienza el proceso de instalación el cual tarda unos minutos.
+
+Una vez instalado, abrimos una pestaña en nuestro navegador e introducimos `localhost:5000` para poder usarlo.
+
+![Ejercicio2](https://dldropbox.com/s/kwguek1j11bqtfh/ejercicio4.png)
+
 ###-Desde el panel restringir los recursos que pueden usar: CPU shares, CPUs que se pueden usar (en sistemas multinúcleo) o cantidad de memoria.
 
+En primer lugar, para restringir los recursos de cpus pulsamos en el panel de la izquierda sobre el contenedor que elijamos y se nos mostrará un menu como el que se muestra en la siguiente captura.
 
 
 ## EJERCICIO 5
