@@ -22,7 +22,8 @@ Ahora, con la línea `lxc-checkconfig` comprobamos que todo va correctamente y q
 
 Como muestra la siguiente captura de pantalla, con 'brctl show' nos muestra que se ha creado el puente.
 
-![Ejercicio2](https://dl.dropbox.com/s/7cwjglzu9ahwg17/tema3.3.png)
+![Ejercicio2](https://dl.dropbox.com/s/ea5cfea8ebb2nl1/ejercicio2.png)
+
 
 ## EJERCICIO 3
  
@@ -50,12 +51,13 @@ seguidamente, comienza el proceso de instalación el cual tarda unos minutos.
 
 Una vez instalado, abrimos una pestaña en nuestro navegador e introducimos `localhost:5000` para poder usarlo.
 
-![Ejercicio2](https://dldropbox.com/s/kwguek1j11bqtfh/ejercicio4.png)
+![Ejercicio4.a](https://dl.dropbox.com/s/kwguek1j11bqtfh/ejercicio4.png)
 
 ###-Desde el panel restringir los recursos que pueden usar: CPU shares, CPUs que se pueden usar (en sistemas multinúcleo) o cantidad de memoria.
 
 En primer lugar, para restringir los recursos de cpus pulsamos en el panel de la izquierda sobre el contenedor que elijamos y se nos mostrará un menu como el que se muestra en la siguiente captura.
 
+![Ejercicio4.b](https://dl.dropbox.com/s/nhhrrn6uuqsuw8c/ejercicio4b.png)
 
 ## EJERCICIO 5
 
