@@ -63,6 +63,12 @@ En primer lugar, para restringir los recursos de cpus pulsamos en el panel de la
 
 ### Comparar las prestaciones de un servidor web en una jaula y el mismo servidor en un contenedor. Usar nginx.
 
+Para realizar la comparación de las prestaciones, usamos la jaula que creamos en el tema 2 y el contenedor de ubuntu  que hemos creado anteriormente.
+
+Ahora entramos en el contenedor e instalamos nginx. Después con AB hacemos las peticiones concurrentes con la siguiente línea en consola:
+  `ab -n 1000 -c 1000 [ip]`
+
+Hecho esto en el contenedor, procedemos a entrar en  la jaula  donde lanzamos nginx, realizando las peticiones con `ab -n 1000 -c 1000 http://localhost/`
 
 
 ## EJERCICIO 6
