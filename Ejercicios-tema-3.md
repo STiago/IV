@@ -74,3 +74,38 @@ Hecho esto en el contenedor, procedemos a entrar en  la jaula  donde lanzamos ng
 ## EJERCICIO 6
 
 ### Instalar juju y, usándolo, instalar MediaWiki en un táper.
+
+1. INSTALAMOS JUJU
+AÑADIR REPOSITORIO PARA PODER REALIZAR SU INSTALACION:
+`sudo add-apt-repository ppa:juju/stable`
+`sudo apt-get update`
+
+A CONTINUACIÓN INSTALAMOS EL JUJU:
+`sudo apt-get install juju-core`
+
+2. LO USAMOS PARA INSTALAR MYSQL
+INICIALIZAMOS JUJU
+`sudo juju init` 
+
+POSTERIORMENTE ENTRAMOS EN EL FICHERO ~/.juju/environments.yaml Y CAMBIAMOS LA LÍNEA  default:amazon POR default:local
+Y ahora hacemos:
+`juju switch local`
+`juju bootstrap`
+`juju deploy mysql`
+`juju status`
+
+
+## EJERCICIO 7
+
+### Destruir toda la configuración creada anteriormente
+    
+    
+### Volver a crear la máquina anterior y añadirle mediawiki y una relación entre ellos.
+
+
+### Crear un script en shell para reproducir la configuración usada en las máquinas que hagan falta.
+
+
+
+
+
