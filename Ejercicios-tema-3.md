@@ -77,7 +77,9 @@ Hecho esto en el contenedor, procedemos a entrar en  la jaula  donde lanzamos ng
 
 1. INSTALAMOS JUJU
 AÑADIR REPOSITORIO PARA PODER REALIZAR SU INSTALACION:
+
 `sudo add-apt-repository ppa:juju/stable`
+
 `sudo apt-get update`
 
 A CONTINUACIÓN INSTALAMOS EL JUJU:
@@ -89,18 +91,30 @@ INICIALIZAMOS JUJU
 
 POSTERIORMENTE ENTRAMOS EN EL FICHERO ~/.juju/environments.yaml Y CAMBIAMOS LA LÍNEA  default:amazon POR default:local
 Y ahora hacemos:
-`juju switch local`
-`juju bootstrap`
-`juju deploy mysql`
-`juju status`
-
+> ```
+>`juju switch local`
+>`juju bootstrap`
+>`juju deploy mysql`
+>`juju status`
+> ```
 
 ## EJERCICIO 7
 
 ### Destruir toda la configuración creada anteriormente
     
+    Para destruirla solo tenemos que realizar lo que muestra la siguiente captura:
+    
+![Ejercicio7](https://dl.dropbox.com/s/im6khfvo9g18210/ejercicio7.png)
+    
     
 ### Volver a crear la máquina anterior y añadirle mediawiki y una relación entre ellos.
+    Sería de la siguiente forma:
+    
+    juju bootstrap
+    juju deploy mediawiki
+    juju deploy mysql
+    juju add-relation mediawiki:db mysql
+    juju expose mediawiki
 
 
 ### Crear un script en shell para reproducir la configuración usada en las máquinas que hagan falta.
