@@ -108,7 +108,7 @@ Y ahora hacemos:
     
     
 ### Volver a crear la máquina anterior y añadirle mediawiki y una relación entre ellos.
-    Sería de la siguiente forma:
+    Sería de la siguiente forma, introduciendo en la consola las siguientes líneas de comandos:
     
     juju bootstrap
     juju deploy mediawiki
@@ -118,6 +118,21 @@ Y ahora hacemos:
 
 
 ### Crear un script en shell para reproducir la configuración usada en las máquinas que hagan falta.
+
+En este ejercicio, reuno todo lo relizado en los ejercicios anteriores en un script para que cuando lo ejecutemos muestre lo mismo. Posteriormente tras guardarlo con la extensión ".sh" cambiamos los permisos con "chmod +x ejercicio.sh" y lo lanzamos como super usuario así "sudo ./ejercicio.sh"
+ 
+
+    #!/bin/bash
+    juju init
+    juju switch local 
+    juju bootstrap 
+    juju deploy mediawiki
+    juju deploy mysql 
+    juju add-relation mediawiki:db mysql 
+    juju expose mediawiki 
+    juju status 
+
+
 
 
 
