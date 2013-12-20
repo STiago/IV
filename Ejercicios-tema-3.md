@@ -133,8 +133,13 @@ En este ejercicio, reuno todo lo relizado en los ejercicios anteriores en un scr
     juju status 
 
 
+## EJERCICIO 8
 
+###Instalar libvirt. Te puede ayudar esta guía para Ubuntu.
 
+Inicialmente instalamos virt-install como muestra la siguiente captura:
+
+![Ejercicio7](https://dl.dropbox.com/s/x4sv1zbqdpuhh74/ejercicio8.png)
 
 
 
