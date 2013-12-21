@@ -137,9 +137,9 @@ En este ejercicio, reuno todo lo relizado en los ejercicios anteriores en un scr
 
 ###Instalar libvirt. Te puede ayudar esta guía para Ubuntu.
 
-Inicialmente instalamos virt-install como muestra la siguiente captura:
+Lo instalamos libvirt como muestra la siguiente captura:
 
-![Ejercicio7](https://dl.dropbox.com/s/x4sv1zbqdpuhh74/ejercicio8.png)
+![Ejercicio7](https://dl.dropbox.com/s/zbysw2v94dbk5x6/ejercicio8.1.png)
 
 
 
