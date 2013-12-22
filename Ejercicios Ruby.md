@@ -43,12 +43,28 @@ Primero, comprobamos donde está el interprete y prodecemos a crear nuestro prog
 ![Ejercicio2](https://dl.dropbox.com/s/g0slzlfxhupfqxr/ruby5.png)
 
 
-
 ---
 
 
 ## EJERCICIO 3
 
 ### ¿Se pueden crear estructuras de datos mixtas en Ruby? Crear un array de hashes de arrays e imprimirlo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
