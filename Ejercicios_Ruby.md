@@ -32,7 +32,8 @@ Primero, comprobamos donde está el interprete y prodecemos a crear nuestro prog
 ![Ejercicio2](https://dl.dropbox.com/s/cdzrixjxbhx189w/ruby4.png)
 
       PROGRAMA:
-      #!/bin/ruby
+      #!/usr/bin/ruby
+      #Author: STiago
         for var in 1..20
           puts "Numero = #{var}"
         end
@@ -50,7 +51,20 @@ Primero, comprobamos donde está el interprete y prodecemos a crear nuestro prog
 
 ### ¿Se pueden crear estructuras de datos mixtas en Ruby? Crear un array de hashes de arrays e imprimirlo.
 
+            CÓDIGO:
+            #!/usr/bin/ruby
+            #Author: STiago
+            
+            ejercicio = {:semana => ["lunes"=>' IV, ', "martes"=>' DAI, ', "miercoles"=>' TE ', "jueves"=>' DDSI, ', "viernes"=>' FR '],:trabajos=> ["IV"=>' ubuntu, ', "DAI"=>' ubuntu, ', "FR"=>' windows ']}
+            
+            puts ejercicio.inspect
+            
+            ejercicio.keys().each do |var|
+                  puts ejercicio[var]
+            end
 
+
+![Ejercicio3](https://dl.dropbox.com/s/5pkk6w7629455yn/ruby6.png)
 
 
 
