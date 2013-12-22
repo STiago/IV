@@ -1,4 +1,3 @@
-
 ## EJERCICIO 1
 
 ### ¿Cómo tienes instalado tu disco duro? ¿Usas particiones? ¿Volúmenes lógicos?
@@ -52,7 +51,11 @@ Para instalarlo basta con poner en consola lo siguiente:
 
 ## EJERCICIO 6
 
-###
+### Crear un dispositivo ceph usando BTRFS o XFS
+
+
+### Avanzado Usar varios dispositivos en un nodo para distribuir la carga.
+
 
 ---
 
@@ -60,14 +63,14 @@ Para instalarlo basta con poner en consola lo siguiente:
 
 ## EJERCICIO 7
 
-###
+### Almacenar objetos y ver la forma de almacenar directorios completos usando ceph y rados.
 
 ---
 
 
 ## EJERCICIO 8
 
-###
+### Tras crear la cuenta de Azure, instalar las herramientas de línea de órdenes (Command line interface, cli) del mismo y configurarlas con la cuenta Azure correspondiente
 
 ---
 
@@ -75,7 +78,7 @@ Para instalarlo basta con poner en consola lo siguiente:
 
 ## EJERCICIO 9
 
-###
+### Crear varios contenedores en la cuenta usando la línea de órdenes para ficheros de diferente tipo y almacenar en ellos las imágenes en las que capturéis las pantallas donde se muestre lo que habéis hecho.
 
 ---
 
@@ -83,7 +86,7 @@ Para instalarlo basta con poner en consola lo siguiente:
 
 ## EJERCICIO 10
 
-###
+### Desde un programa en Ruby o en algún otro lenguaje, listar los blobs que hay en un contenedor, crear un fichero con la lista de los mismos y subirla al propio contenedor. Muy meta todo.
 
 ---
 
