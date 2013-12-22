@@ -74,8 +74,28 @@ Por lo tanto si se pueden crear estructuras de datos mixtas en Ruby siendo el re
 
 ## EJERCICIO 4
 
-### 
+### Crear una serie de funciones instanciadas con un URL que devuelvan algún tipo de información sobre el mismo: fecha de última modificación, por ejemplo. Pista: esa información está en la cabecera HTTP que devuelve
 
+            CÓDIGO
+            #!/usr/bin/ruby
+            def fecha(url)
+                  respuesta = Net::HTTP.get_reponse url,'/'
+                  return respuesta['date'].to_s
+            end
+            
+            def servidor(url)
+                  respuesta = Net::HTTP.get_reponse url,'/'
+                  return respuesta['server'].to_s
+            end
+            
+            url = ARGV[0]
+            
+            puts "La URL introducida es: " << url
+            puts "La fecha de la peticion es: " << fecha()
+            puts "Servidor: " << servidor()
+            
+            puts fecha(url)
+            puts servidor(url)
 
 
 
