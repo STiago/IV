@@ -63,13 +63,18 @@ Primero, comprobamos donde está el interprete y prodecemos a crear nuestro prog
                   puts ejercicio[var]
             end
 
+Por lo tanto si se pueden crear estructuras de datos mixtas en Ruby siendo el resultado el siguiente:
+
 
 ![Ejercicio3](https://dl.dropbox.com/s/5pkk6w7629455yn/ruby6.png)
 
 
+---
 
 
+## EJERCICIO 4
 
+### 
 
 
 
