@@ -101,6 +101,15 @@ Dando como resultado:
 
 ![Ejercicio3](https://dl.dropbox.com/s/sfi5dykme2xil2g/ruby7.png)
 
+---
+
+## EJERCICIO 5
+
+### Ver si está disponible Vagrant como una gema de Ruby e instalarla.
+
+Como he comprobado anteriormente, no está instalada la gema, por lo que procedo a instalarla con la siguiente línea de comandos en consola:
+
+`sudo gem install vagrant`
 
 
 
