@@ -19,7 +19,10 @@ También instalamos `irb`, `rubygems` y `rdoc`.
 ![Ejercicio1](https://dl.dropbox.com/s/h3dw7gqggcua4qq/ruby3.png)
 
 
----
+
 ---
 
+
 ## EJERCICIO 2
+
+### Crear un programa en Ruby que imprima los números desde el 1 hasta otro contenido en una variable.
