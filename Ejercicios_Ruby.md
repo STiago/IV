@@ -99,7 +99,7 @@ Por lo tanto si se pueden crear estructuras de datos mixtas en Ruby siendo el re
 
 Dando como resultado:
 
-![Ejercicio3](https://dl.dropbox.com/s/sfi5dykme2xil2g/ruby7.png)
+![Ejercicio4](https://dl.dropbox.com/s/sfi5dykme2xil2g/ruby7.png)
 
 ---
 
@@ -107,11 +107,11 @@ Dando como resultado:
 
 ### Ver si está disponible Vagrant como una gema de Ruby e instalarla.
 
-Como he comprobado anteriormente, no está instalada la gema, por lo que procedo a instalarla con la siguiente línea de comandos en consola:
+Como he comprobado con `gem search --remote vagrant`, no está instalada la gema, por lo que procedo a instalarla con la siguiente línea de comandos en consola:
 
 `sudo gem install vagrant`
 
-
+![Ejercicio5](https://dl.dropbox.com/s/v7h57vlx7ha8nea/ruby8.png)
 
 
 
