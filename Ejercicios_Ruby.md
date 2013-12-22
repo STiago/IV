@@ -97,6 +97,9 @@ Por lo tanto si se pueden crear estructuras de datos mixtas en Ruby siendo el re
             puts fecha(url)
             puts servidor(url)
 
+Dando como resultado:
+
+![Ejercicio3](https://dl.dropbox.com/s/sfi5dykme2xil2g/ruby7.png)
 
 
 
