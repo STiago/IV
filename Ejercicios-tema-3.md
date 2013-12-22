@@ -135,11 +135,32 @@ En este ejercicio, reuno todo lo relizado en los ejercicios anteriores en un scr
 
 ## EJERCICIO 8
 
-###Instalar libvirt. Te puede ayudar esta guía para Ubuntu.
+### Instalar libvirt. Te puede ayudar esta guía para Ubuntu.
 
 Lo instalamos libvirt como muestra la siguiente captura:
 
-![Ejercicio7](https://dl.dropbox.com/s/zbysw2v94dbk5x6/ejercicio8.1.png)
+![Ejercicio8](https://dl.dropbox.com/s/zbysw2v94dbk5x6/ejercicio8.1.png)
+
+
+## EJERCICIO 9
+
+### Instalar un contenedor usando virt-install.
+
+Inicialmente, instalamos virt-install como muestra la siguiente captura:
+
+![Ejercicio9](https://dl.dropbox.com/s/x4sv1zbqdpuhh74/ejercicio8.png)
+
+Seguidamente descargamos la imagen de ubuntu server como sigue e instalamos el contenedor:
+
+![Ejercicio9](https://dl.dropbox.com/s/izygc14tllpk8tf/ejercicio9.1.png)
+
+Finalmente, instalamos virt-viewer y continuamos con la instalación.
+
+![Ejercicio9](https://dl.dropbox.com/s/qf3aqickofms1mr/ejercicio9.2.png)
+
+
+
+
 
 
 
