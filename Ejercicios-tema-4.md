@@ -1,6 +1,10 @@
 ## EJERCICIO 1
 
 ### ¿Cómo tienes instalado tu disco duro? ¿Usas particiones? ¿Volúmenes lógicos?
+Intalo GParted para ver que hay intalado y que particiones y volúmenes hay, teniendo como resultado lo siguiente:
+
+
+![Ejercicio5](https://dl.dropbox.com/s/pf6ygzx1xvixg0o/ejercicio1.png)
 
     
 ### Si tienes acceso en tu escuela o facultad a un ordenador común para las prácticas, ¿qué almacenamiento físico utiliza?
