@@ -125,6 +125,15 @@ Si quisiesemos subir una carpeta completa, bastaría con comprimir la misma y su
 
 ### Crear varios contenedores en la cuenta usando la línea de órdenes para ficheros de diferente tipo y almacenar en ellos las imágenes en las que capturéis las pantallas donde se muestre lo que habéis hecho.
 
+Vamos a empezar creando un contenedor para imágenes con `azure storage container create imagenes -p blob`
+Seguidamente subimos una imagen cualquiera al contenedor usando:
+
+`azure storage blob upload ~/Documentos/Imágenes/imagen.jpg`
+
+Y con ello queda subido archivo a la cuenta que he hecho en el ejercicio de antes.
+
+
+
 ---
 
 
