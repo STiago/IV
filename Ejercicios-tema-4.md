@@ -132,7 +132,35 @@ Si quisiesemos subir una carpeta completa, bastaría con comprimir la misma y su
 ## EJERCICIO 10
 
 ### Desde un programa en Ruby o en algún otro lenguaje, listar los blobs que hay en un contenedor, crear un fichero con la lista de los mismos y subirla al propio contenedor. Muy meta todo.
+Para poder realizarlo en Ruby con Azure, debemos de instalar en primer lugar la gema de ruby para azure usando:
 
+    `sudo gem install azure`
+    
+    
+Y finalmente, realizamos el siguiente código:
+
+
+
+    #!/usr/bin/ruby
+    require "azure"
+    azure_blob_service = Azure::BlobService.new
+    containers = azure_blob_service.list_containers()
+    containers.each do |container|
+        name = container.name + ".txt"
+        
+    File.open(name, "w") do |list|
+        list.puts container.name + ":"
+        list.puts "=" * container.name.length
+    blobs = azure_blob_service.list_blobs(container.name)
+        blobs.each do |blob|
+                    list.puts "\t" + blob.name
+        end
+    end
+    content = File.open(name, "rb") { |file| file.read }
+    blob = azure_blob_service.create_block_blob(container.name, name, content)
+    end
+    
+    
 ---
 
 
