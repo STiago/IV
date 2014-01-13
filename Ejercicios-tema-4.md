@@ -117,6 +117,27 @@ Si quisiesemos subir una carpeta completa, bastaría con comprimir la misma y su
 
 ### Tras crear la cuenta de Azure, instalar las herramientas de línea de órdenes (Command line interface, cli) del mismo y configurarlas con la cuenta Azure correspondiente
 
+En primer lugar instalamos node.js añadiendo el repositorio correspondiente al mismo y hacemos el update usando:
+
+        add-apt-repository ppa:chris-lea/node.js
+        apt-get update
+
+Instalamos ahora con `apt-get install nodejs` e instalamos tambien Windows Azure Cross-Platform Command-Line Interface con `npm install azure-cli`
+
+A continuacion, vamos a http://go.microsoft.com/fwlink/?LinkId=254432 y hacemos login. 
+Se nos descargará un archivo el cual importaremos con:
+
+`azure account import ~/Azpad245GZK8973-12-30-2013-credentials.publishsettings`
+
+Ahora finalmente creamos una cuenta de almacenamiento usando lo siguiente:
+
+    azure account storage create stiago
+    azure account storage keys list stiago
+    export AZURE_STORAGE_ACCOUNT=stiago
+    export AZURE_STORAGE_ACCESS_KEY=(llave dada por azure account)
+    echo $AZURE_STORAGE_ACCOUNT
+    echo $AZURE_STORAGE_ACCESS_KEY
+
 ---
 
 
