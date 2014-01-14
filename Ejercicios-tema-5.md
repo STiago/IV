@@ -7,13 +7,34 @@ En primer lugar, probamos si soporta virtualización introduciendo en consola la
     
   Y nos muestra lo siguiente:
   
+  
   ![Tema5](http://ubuntuone.com/2LNcQHUFLSsMgGu1XqmdOg)
+  
+  
+ Una vez realizado lo anterior, procecemos a instalar los paqetes necesarios para el uso de KVM.
+
+    sudo apt-get install qemu-kvm qemu-system libvirt-bin virtinst virt-manager
+    
+  ![Tema5](http://ubuntuone.com/6tLLCoDHeLbMABIa7dglMe)
+
+
 
 ## EJERCICIO 2
 
 ## - Crear varias máquinas virtuales con algún sistema operativo libre, Linux o BSD. Si se quieren distribuciones que ocupen poco espacio con el objetivo principalmente de hacer pruebas se puede usar CoreOS (que sirve como soporte para Docker) GALPon Minino, hecha en Galicia para el mundo, Damn Small Linux, SliTaz (que cabe en 35 megas) y ttylinux (basado en línea de órdenes solo).
 
+En primer lugar activamos el módulo del kernel kvm con:
 
+        `sudo modprobe kvm-intel`
+        
+ Seguidamente, accediendo a las paginas y creamos nuestro disco duro virtual:
+ 
+        `http://www.slitaz.org/en/get/#stable`
+        
+        `qemu-img create -f raw SliTar-hdd.img 100M`
+        
+        
+        
 
 ## - Hacer un ejercicio equivalente usando otro hipervisor como Xen, VirtualBox o Parallels.
 
