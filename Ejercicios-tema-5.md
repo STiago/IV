@@ -61,6 +61,8 @@ Ahora procedemos a instalar ElementaryOS:
 
 ### Crear una máquina virtual Linux con 512 megas de RAM y entorno gráfico LXDE a la que se pueda acceder mediante VNC y ssh.
 
+Inicialmente, nos desargamos Lubuntu puesto que esta distribución ya tiene el entorno gráfico LXDE e introducimos en consola lo que muestra la siguiente captura de pantalla:
+
 
 
 
