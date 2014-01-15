@@ -35,7 +35,7 @@ En primer lugar activamos el módulo del kernel kvm con:
         
 y nos queda: 
         
-        ![Tema5](http://ubuntuone.com/7eewNzlYyBjtrYvAI4FxXk)
+  ![Tema5](http://ubuntuone.com/7eewNzlYyBjtrYvAI4FxXk)
         
 Seguidamente hacemos `qemu-system-x86_64 -hda ./SliTar-hdd.img -cdrom ../Descargas/ttylinux-virtio_x86_64-16.1.iso -show-cursor` y hemos terminado.
 
