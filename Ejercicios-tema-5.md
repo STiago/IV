@@ -21,7 +21,7 @@ En primer lugar, probamos si soporta virtualización introduciendo en consola la
 
 ## EJERCICIO 2
 
-## - Crear varias máquinas virtuales con algún sistema operativo libre, Linux o BSD. Si se quieren distribuciones que ocupen poco espacio con el objetivo principalmente de hacer pruebas se puede usar CoreOS (que sirve como soporte para Docker) GALPon Minino, hecha en Galicia para el mundo, Damn Small Linux, SliTaz (que cabe en 35 megas) y ttylinux (basado en línea de órdenes solo).
+### - Crear varias máquinas virtuales con algún sistema operativo libre, Linux o BSD. Si se quieren distribuciones que ocupen poco espacio con el objetivo principalmente de hacer pruebas se puede usar CoreOS (que sirve como soporte para Docker) GALPon Minino, hecha en Galicia para el mundo, Damn Small Linux, SliTaz (que cabe en 35 megas) y ttylinux (basado en línea de órdenes solo).
 
 En primer lugar activamos el módulo del kernel kvm con:
 
@@ -33,10 +33,13 @@ En primer lugar activamos el módulo del kernel kvm con:
         
         `qemu-img create -f raw SliTar-hdd.img 100M`
         
+y nos queda: 
         
+        ![Tema5](http://ubuntuone.com/7eewNzlYyBjtrYvAI4FxXk)
         
+Seguidamente hacemos `qemu-system-x86_64 -hda ./SliTar-hdd.img -cdrom ../Descargas/ttylinux-virtio_x86_64-16.1.iso -show-cursor` y hemos terminado.
 
-## - Hacer un ejercicio equivalente usando otro hipervisor como Xen, VirtualBox o Parallels.
+### - Hacer un ejercicio equivalente usando otro hipervisor como Xen, VirtualBox o Parallels.
 
 
 
