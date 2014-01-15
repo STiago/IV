@@ -42,6 +42,14 @@ Seguidamente hacemos `qemu-system-x86_64 -hda ./SliTar-hdd.img -cdrom ../Descarg
 Ahora procedemos a instalar ElementaryOS:
 
 
+Configuramos ahora VMM como muestran los siguientes volcados de pantalla:
+
+
+![Tema5](http://ubuntuone.com/2tcbpA4phXYUzPqKXqrcNc)
+
+
+![Tema5]()
+
 
 
 ### - Hacer un ejercicio equivalente usando otro hipervisor como Xen, VirtualBox o Parallels.
@@ -62,6 +70,8 @@ Ahora procedemos a instalar ElementaryOS:
 ### Crear una máquina virtual Linux con 512 megas de RAM y entorno gráfico LXDE a la que se pueda acceder mediante VNC y ssh.
 
 Inicialmente, nos desargamos Lubuntu puesto que esta distribución ya tiene el entorno gráfico LXDE e introducimos en consola lo que muestra la siguiente captura de pantalla:
+
+![Tema5](http://ubuntuone.com/2ryZvqfCS4F9RE4Ckdlybo)
 
 
 
