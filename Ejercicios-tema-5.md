@@ -39,6 +39,11 @@ y nos queda:
         
 Seguidamente hacemos `qemu-system-x86_64 -hda ./SliTar-hdd.img -cdrom ../Descargas/ttylinux-virtio_x86_64-16.1.iso -show-cursor` y hemos terminado.
 
+Ahora procedemos a instalar ElementaryOS:
+
+
+
+
 ### - Hacer un ejercicio equivalente usando otro hipervisor como Xen, VirtualBox o Parallels.
 
 
