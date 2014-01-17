@@ -194,13 +194,9 @@ PASOS:
                 
                 service nginx restart
                 
-6. Hacemos en la anfitriona curl seguido de la ip de nuestra máquina balanceadora:
-                
-                curl http://192.168.246.129  
+6. Finalmente abrimos nuestro navegador seguido de la ip de nuestra máquina y nos saldra la pagina con el index de nginx.
 
 
-
-Finalmente abrimos nuestro navegador y nos saldra la pagina con el index de nginx.
 
 
 ## EJERCICIO 6
