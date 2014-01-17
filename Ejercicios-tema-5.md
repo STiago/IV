@@ -71,25 +71,24 @@ Configuramos ahora VMM como muestran los siguientes volcados de pantalla:
 
 Inicialmente, nos desargamos Lubuntu puesto que esta distribución ya tiene el entorno gráfico LXDE e introducimos en consola lo que muestra la siguiente captura de pantalla:
 
+
+`qemu-img create -f qcow2 Lubuntu-hdd.img 8G`
+`qemu-system-x86_64 -hda ~/qemu/lubuntu-hdd.img -cdrom ~/qemu/lubuntu-13.10-desktop-i386.iso -m 512M`
+
 ![Tema5](http://ubuntuone.com/2ryZvqfCS4F9RE4Ckdlybo)
 
 
-Intaslamos a continuación Lubuntu con VMM:
-
-![Tema5](http://ubuntuone.com/5TzTQWjqyij4naBIUCJUMS)
-
-![Tema5](http://ubuntuone.com/7B4YPTnTAHQcJhoytlx8PW)
-
-![Tema5](http://ubuntuone.com/3eRmbM0GXanGlHnOOd4INX)
-
-![Tema5](http://ubuntuone.com/3i6MmaMqJjqYoBgecGVl0g)
-
-![Tema5](http://ubuntuone.com/1YlYaZDMP0djS7Fome1JVF)
+Intaslamos a continuación Lubuntu con los siguientes pasos:
 
 
-Y ahora instalamos openssh server:
 
-hacemos con vnc en anfitriona:
+
+
+Y ahora instalamos ssh:
+
+
+
+
 `sudo qemu-system-x86_64 -boot order=c -drive file=Lubuntu-hdd.img,if=virtio -m 1024M -name Lubuntu -vnc :1`
 
 
