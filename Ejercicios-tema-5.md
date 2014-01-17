@@ -72,7 +72,15 @@ Y ya tenemos instalado bien CentOS:
 
 ### - Hacer un ejercicio equivalente usando otro hipervisor como Xen, VirtualBox o Parallels.
 
+Tras instalar virtualBox con `sudo apt-get install virtualbox` , procedemos a crearlo:
 
+![Tema5](http://ubuntuone.com/2FBTdhQINnR7E2jiaYlRND)
+
+![Tema5](http://ubuntuone.com/5FTRvJctE8NLVmdbvEPQB1)
+
+![Tema5](http://ubuntuone.com/52wGZtevlN9wjaXV3m8441)
+
+![Tema5](
 
 
 ## EJERCICIO 3
