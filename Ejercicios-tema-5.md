@@ -85,7 +85,13 @@ Intaslamos a continuación Lubuntu con los siguientes pasos:
 
 
 
-Y ahora instalamos ssh:
+Y ahora con ssh hacemos:
+
+`qemu-system-x86_64 -boot order=c -drive file=~/qemu/lubuntu-hdd.img,if=virtio -m 512M -name lubuntu -redir tcp:2222::22`
+
+Y conectamos por ssh al localhos por el puerto 2222:
+
+`ssh -p 2222 victoria@localhost`
 
 
 
