@@ -209,5 +209,22 @@ PASOS:
 
 ### Instalar una máquina virtual Ubuntu 12.04 para el hipervisor que tengas instalado.
 
+Para realizar el ejercicio, debemos instalar los paquetes que siguen a continuación:
+
+`sudo apt-get install ubuntu-vm-builder kvm virt-manager`
+
+![Tema5](http://ubuntuone.com/1B6clESAuXlCrgxWjDo6aP)
+
+
+A continuación, provisionamos nuestra máquina virtual introduciendo en la consola los siguiente:
+
+
+
+
+
+
+
+
+
 
 
