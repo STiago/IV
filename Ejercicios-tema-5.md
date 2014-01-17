@@ -37,18 +37,32 @@ y nos queda:
         
   ![Tema5](http://ubuntuone.com/7eewNzlYyBjtrYvAI4FxXk)
         
-Seguidamente hacemos `qemu-system-x86_64 -hda ./SliTar-hdd.img -cdrom ../Descargas/ttylinux-virtio_x86_64-16.1.iso -show-cursor` y hemos terminado.
+Seguidamente hacemos `qemu-system-x86_64 -hda ./SliTar-hdd.img -cdrom ../Descargas/slitaz-4.0.iso` y hemos terminado.
 
-Ahora procedemos a instalar ElementaryOS:
+Ahora procedemos a instalar ttyLinux:
+
+`qemu-img create -f qcow2 ttylinux-hdd.img 500G`
+`qemu-system-x86_64 -hda ./ttylinux-hdd.img -cdrom ttylinux-pc_x86_64-16.1.iso`
+
+
+![Tema5](http://ubuntuone.com/4TlFpsgFsdxdNQKRa3YZAW)
+
+
+
+En primer lugar primero creamos nuestro disco virtual para CentOS:
+
+![Tema5](http://ubuntuone.com/47LUNp5fQwRaXhfDovMIDp)
 
 
 Configuramos ahora VMM como muestran los siguientes volcados de pantalla:
 
-
 ![Tema5](http://ubuntuone.com/2tcbpA4phXYUzPqKXqrcNc)
 
 
-![Tema5]()
+![Tema5](http://ubuntuone.com/05wdf5uzKMVMEt6DCjdn0g)
+
+![Tema5](http://ubuntuone.com/1LlqGU1XoMFNW79iQdWg9r)
+
 
 
 
@@ -83,20 +97,21 @@ Intaslamos a continuación Lubuntu con los siguientes pasos:
 
 ![Tema5](http://ubuntuone.com/79LMW0OE5PpPllCzieADWt)
 
+y finalmente queda instalado como muestra a continuación el siguiente volcado de pantalla:
 
+
+![Tema5](http://ubuntuone.com/2cAp8vVBTUrzPUPuQ4dBJw)
 
 Y ahora con ssh hacemos:
 
-`qemu-system-x86_64 -boot order=c -drive file=~/qemu/lubuntu-hdd.img,if=virtio -m 512M -name lubuntu -redir tcp:2222::22`
+`qemu-system-x86_64 -boot order=c -drive file=Lubuntu-hdd.img,if=virtio -m 512M -name lubuntu -redir tcp:2222::22`
 
 Y conectamos por ssh al localhos por el puerto 2222:
 
-`ssh -p 2222 victoria@localhost`
+`ssh -p 2222 lubuntu@localhost`
 
 
-
-
-`sudo qemu-system-x86_64 -boot order=c -drive file=Lubuntu-hdd.img,if=virtio -m 1024M -name Lubuntu -vnc :1`
+![Tema5](http://ubuntuone.com/58ka286k1EVWMlD5o9qAWE)
 
 
 
