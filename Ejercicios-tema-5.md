@@ -80,7 +80,10 @@ Tras instalar virtualBox con `sudo apt-get install virtualbox` , procedemos a cr
 
 ![Tema5](http://ubuntuone.com/52wGZtevlN9wjaXV3m8441)
 
-![Tema5](
+
+Y ya vemos ubuntu server funcionando correctamente:
+
+![Tema5](http://ubuntuone.com/0GWsYFZp5Z9YicFwgTD8cu)
 
 
 ## EJERCICIO 3
