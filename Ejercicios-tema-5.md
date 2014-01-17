@@ -74,6 +74,24 @@ Inicialmente, nos desargamos Lubuntu puesto que esta distribución ya tiene el e
 ![Tema5](http://ubuntuone.com/2ryZvqfCS4F9RE4Ckdlybo)
 
 
+Intaslamos a continuación Lubuntu con VMM:
+
+![Tema5](http://ubuntuone.com/5TzTQWjqyij4naBIUCJUMS)
+
+![Tema5](http://ubuntuone.com/7B4YPTnTAHQcJhoytlx8PW)
+
+![Tema5](http://ubuntuone.com/3eRmbM0GXanGlHnOOd4INX)
+
+![Tema5](http://ubuntuone.com/3i6MmaMqJjqYoBgecGVl0g)
+
+![Tema5](http://ubuntuone.com/1YlYaZDMP0djS7Fome1JVF)
+
+
+Y ahora instalamos openssh server:
+
+hacemos con vnc en anfitriona:
+`sudo qemu-system-x86_64 -boot order=c -drive file=Lubuntu-hdd.img,if=virtio -m 1024M -name Lubuntu -vnc :1`
+
 
 
 ## EJERCICIO 5
