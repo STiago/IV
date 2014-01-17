@@ -81,6 +81,7 @@ Inicialmente, nos desargamos Lubuntu puesto que esta distribución ya tiene el e
 Intaslamos a continuación Lubuntu con los siguientes pasos:
 
 
+![Tema5](http://ubuntuone.com/79LMW0OE5PpPllCzieADWt)
 
 
 
