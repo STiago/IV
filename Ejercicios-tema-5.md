@@ -64,6 +64,10 @@ Configuramos ahora VMM como muestran los siguientes volcados de pantalla:
 ![Tema5](http://ubuntuone.com/1LlqGU1XoMFNW79iQdWg9r)
 
 
+Y ya tenemos instalado bien CentOS:
+
+
+![Tema5](http://ubuntuone.com/6KAZE50woqePwfXn24K66v)
 
 
 ### - Hacer un ejercicio equivalente usando otro hipervisor como Xen, VirtualBox o Parallels.
