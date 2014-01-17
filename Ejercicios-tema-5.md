@@ -131,6 +131,73 @@ Y conectamos por ssh al localhos por el puerto 2222:
 
 ### Crear una máquina virtual ubuntu e instalar en ella un servidor nginx para poder acceder mediante web.
 
+Para ello voy a usar vmware, instalando como hemos hecho anteriormente con ubuntu server en virtual box, dandole 1 procesador y 1024 MB de RAM.
+
+A continuación, procedo a describir el proceso de instalación de nginx en ubuntu server:
+
+PASOS:
+        
+1. Importamos  la clave del repositorio:
+            
+                cd /tmp/
+                wget http://nginx.org/keys/nginx_signing.key
+                apt-key add /tmp/nginx_signing.key
+                rm -f /tmp/nginx_signing.key
+                
+                
+ ![Tema5](https://dl.dropbox.com/s/rtrxp46jkz6o2m4/pra2.png)
+                
+                
+2. Añadimos el repositorio editando /etc/apt/sources.list :
+                
+                echo "deb http://nginx.org/packages/ubuntu/ lucid nginx" >> /etc/apt/sources.list
+                echo "deb-src http://nginx.org/packages/ubuntu/ lucid nginx" >> /etc/apt/sources.list
+            
+3. Procecemos a hacer el update y a instalar nginx con :
+                
+                sudo apt-get install nginx
+                
+4. Ahora editamos el fichero de configuración que se encuentra en /etc/nginx.confd/default.conf añadiendo:
+            
+                upstream apaches {
+                    server 192.168.246.128
+                    server 192.168.246.130
+                }
+                
+                server{
+                    listen 80;
+                    server_name miservidor;
+                    access_log /var/log/nginx/miservidor.access.log;
+                    error_log /var/log/nginx/miservidor.error.log;
+                    root /var/www/;
+                
+                    location /{ 
+                        proxy_pass http://apaches;
+                        proxy_set_header Host $host;
+                        proxy_set_header X-Real-IP $remote_addr;
+                        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                        proxy_http_version 1.1;
+                        proxy_set_header Connection "";
+                    }
+                }
+               
+                
+                
+![Tema5](https://dl.dropbox.com/s/uh6l32s1ft6kf2h/pra8%28service%20restart%20nginx%29.png)
+                
+                
+                
+5. Lanzamos el servicio nginx:
+                
+                service nginx restart
+                
+6. Hacemos en la anfitriona curl seguido de la ip de nuestra máquina balanceadora:
+                
+                curl http://192.168.246.129  
+
+
+
+Finalmente abrimos nuestro navegador y nos saldra la pagina con el index de nginx.
 
 
 ## EJERCICIO 6
