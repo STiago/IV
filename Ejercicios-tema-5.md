@@ -218,10 +218,8 @@ Para realizar el ejercicio, debemos instalar los paquetes que siguen a continuac
 
 A continuación, provisionamos nuestra máquina virtual introduciendo en la consola los siguiente:
 
+
 ![Tema5](http://ubuntuone.com/2f5ufR9UQI8RCexsL8OAYI)
-
-
-![Tema5]()
 
 
 
