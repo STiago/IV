@@ -160,7 +160,33 @@ Finalmente, instalamos virt-viewer y continuamos con la instalación.
 
 
 
+## EJERCICIO 10
+### Instalar docker.
 
+
+
+
+## EJERCICIO 11
+### Instalar a partir de docker una imagen alternativa de Ubuntu y alguna adicional, por ejemplo de CentOS.
+
+### Buscar e instalar una imagen que incluya MongoDB.
+
+
+
+
+
+## EJERCICIO 12
+### Crear un usuario propio e instalar nginx en el contenedor creado de esta forma
+
+
+
+## EJERCICIO 13
+### Crear a partir del contenedor anterior una imagen persistente con commit.
+
+
+
+## EJERCICIO 14
+### Crear una imagen con las herramientas necesarias para DAI sobre un sistema operativo de tu elección.
 
 
 
