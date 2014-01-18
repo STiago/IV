@@ -162,7 +162,9 @@ Finalmente, instalamos virt-viewer y continuamos con la instalación.
 
 ## EJERCICIO 10
 ### Instalar docker.
+Inicialmente hacemos un update y seguidamente hacemos en consola:
 
+sudo apt-get install linux-image-extra-`uname -r`
 
 
 
