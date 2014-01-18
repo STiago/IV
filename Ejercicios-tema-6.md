@@ -16,7 +16,8 @@ Y una vez comprobado que esta insalado, procedemos a instalar chef con `gem inst
 
 
 ## EJERCICIO 3
-### Escribir en YAML la siguiente estructura de datos en JSON { uno: &#39;dos&#39;,tres: [ 4, 5, &#39;Seis&#39;, { siete: 8, nueve: [Object] } ] }
+### Escribir en YAML la siguiente estructura de datos en JSON:
+{ uno: &#39;dos&#39;,tres: [ 4, 5, &#39;Seis&#39;, { siete: 8, nueve: [Object] } ] }
 
 
 
