@@ -1,6 +1,13 @@
 ## EJERCICIO 1
 ### Instalar chef en la máquina virtual que vayamos a usar.
+En primer lugar nos aseguramos de que nuestra máquina virtual, en mi caso ubuntu server, tiene instalado ruby. Para ello hacemos lo siguiente si no está instalado:
 
+![Tema6](http://ubuntuone.com/03kj6twlbMFEx93l6hZBoh)
+
+
+Y una vez comprobado que esta insalado, procedemos a instalar chef con `gem install ohai chef`:
+
+![Tema6](http://ubuntuone.com/0LgmXYqd3KeqlYXXyKKBxx)
 
 
 ## EJERCICIO 2
