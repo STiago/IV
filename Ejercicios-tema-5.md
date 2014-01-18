@@ -222,9 +222,17 @@ A continuación, provisionamos nuestra máquina virtual introduciendo en la cons
 ![Tema5](http://ubuntuone.com/6fJl0jvAzGgHsID1W8IA21)
 
 
+Seguidamente, procedemos ha crearnos una máquina en virtualbox pero en el paso que nos da la opción de introducir el disco duro virtual, le pulsamoss a "usar un archivo de disco duro virtual existente" que va a ser el que hemos creado en el directorio "/home/victoria".
+
+![Tema5](http://ubuntuone.com/24l04rcHdqMLYIcFNjxZQ9)
 
 
+Continuamos configurandola y al final ya solo nos queda arrancarla y ver que funciona bien.
 
+![Tema5](http://ubuntuone.com/6ELwRuSbCy2V5XA1qt2Hxo)
+
+
+Solo recordar que debemos de acceder on usuario y contraseña `ubuntu`.
 
 
 
