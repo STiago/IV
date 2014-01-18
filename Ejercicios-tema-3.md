@@ -164,9 +164,24 @@ Finalmente, instalamos virt-viewer y continuamos con la instalación.
 ### Instalar docker.
 Inicialmente hacemos un update y seguidamente hacemos en consola:
 
-sudo apt-get install linux-image-extra-`uname -r`
+sudo apt-get install linux-image-extra-`uname -r' 
+
+Seguidamente introducimos en consola la siguiente orden que muestra la captura:
+
+![Tema5](http://ubuntuone.com/2LRnjEx1bkbxRrpkAqYtI7)
+
+Luego hacemos: 
+
+`sudo sh -c "echo deb http://get.docker.io/ubuntu docker main\ /etc/apt/sources.list.d/docker.list"`
+
+![Tema5](http://ubuntuone.com/1XBiZOu76plXhyzNCYPQRF)
+
+Continuamos en consola haciendo `sudo apt-get install lxc-docker` sin olvidarnos de hacer antes un update:
+
+![Tema5](http://ubuntuone.com/5g4ck6MXepDKCOjaH0G5vs)
 
 
+Finalmente ya solo tenemos que introducir `sudo docker -d &` y queda instalado docker.
 
 ## EJERCICIO 11
 ### Instalar a partir de docker una imagen alternativa de Ubuntu y alguna adicional, por ejemplo de CentOS.
