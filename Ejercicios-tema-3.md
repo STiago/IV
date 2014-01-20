@@ -197,6 +197,7 @@ Finalmente ya solo tenemos que introducir `sudo docker -d &` y queda instalado d
 
 
 
+
 ## EJERCICIO 13
 ### Crear a partir del contenedor anterior una imagen persistente con commit.
 
