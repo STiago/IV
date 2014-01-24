@@ -190,7 +190,6 @@ Finalmente ya solo tenemos que introducir `sudo docker -d &` y queda instalado d
 
 
 
-
 ## EJERCICIO 12
 ### Crear un usuario propio e instalar nginx en el contenedor creado de esta forma
 
