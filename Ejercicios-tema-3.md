@@ -16,7 +16,6 @@ Ahora, con la línea `lxc-checkconfig` comprobamos que todo va correctamente y q
 
 
 
-
 ## EJERCICIO 2
 ### Comprobar qué interfaces puente ha creado y explicarlos.
 
