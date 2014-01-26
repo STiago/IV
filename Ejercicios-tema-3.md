@@ -184,6 +184,7 @@ Finalmente ya solo tenemos que introducir `sudo docker -d &` y queda instalado d
 
 ## EJERCICIO 11
 ### Instalar a partir de docker una imagen alternativa de Ubuntu y alguna adicional, por ejemplo de CentOS.
+![Tema5](http://ubuntuone.com/1XBiZOu)
 
 ### Buscar e instalar una imagen que incluya MongoDB.
 
