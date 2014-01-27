@@ -192,16 +192,28 @@ o en la máquina de azure quedando de la siguiente forma:
 
 ## EJERCICIO 11
 ### Instalar a partir de docker una imagen alternativa de Ubuntu y alguna adicional, por ejemplo de CentOS.
-![Tema5](http://ubuntuone.com/1XBiZOu)
+
+![Tema5](http://ubuntuone.com/1FXA2h2MeQz1tCnZaBXy6i)
+
+
+![Tema5](http://ubuntuone.com/00sse3nBnYurdoM6rynK8B)
+
 
 ### Buscar e instalar una imagen que incluya MongoDB.
 
+
+![Tema5](http://ubuntuone.com/0XJcl4tNqsqKIkeoqvpsRK)
+
+![Tema5](http://ubuntuone.com/1EfLO00LVyIJBexFTQRuSM)
 
 
 
 ## EJERCICIO 12
 ### Crear un usuario propio e instalar nginx en el contenedor creado de esta forma
 
+![Tema5](http://ubuntuone.com/0s7n1vSNsUoYFJk7g4x0Y9)
+
+![Tema5](http://ubuntuone.com/0tAte0LxXwWue8w5R5zXV2)
 
 
 ## EJERCICIO 13
