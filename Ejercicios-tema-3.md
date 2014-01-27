@@ -246,7 +246,12 @@ Seguidamente, procedemos a crear en nuestro contenedor nuestro usuario como se m
 ![Tema5](http://ubuntuone.com/0tAte0LxXwWue8w5R5zXV2)
 
 
-Luego instalamos ngix usando `sudo apt-get install software-properties-common`.
+Luego instalamos nginx usando `sudo apt-get install software-properties-common` añadimos el repositorio con `add-apt-repository ppa:nginx/stable` y finalmente instalamos nginx tras hacer un update usando :
+
+`sudo apt-get install nginx`
+
+
+![Tema5](http://ubuntuone.com/6k1hJjQFx917LMzjVq1LKD)
 
 
 ## EJERCICIO 13
