@@ -58,6 +58,7 @@ En primer lugar, para restringir los recursos de cpus pulsamos en el panel de la
 
 ![Ejercicio4.b](https://dl.dropbox.com/s/nhhrrn6uuqsuw8c/ejercicio4b.png)
 
+
 ## EJERCICIO 5
 
 ### Comparar las prestaciones de un servidor web en una jaula y el mismo servidor en un contenedor. Usar nginx.
