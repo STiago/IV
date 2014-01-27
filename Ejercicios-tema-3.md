@@ -194,6 +194,9 @@ o en la máquina de azure quedando de la siguiente forma:
 ## EJERCICIO 11
 ### Instalar a partir de docker una imagen alternativa de Ubuntu y alguna adicional, por ejemplo de CentOS.
 
+Inicialmente, usamos azure e instalamos ubuntu y centos como se muestra en las siguientes capturas:
+
+
 ![Tema5](http://ubuntuone.com/1FXA2h2MeQz1tCnZaBXy6i)
 
 
@@ -202,9 +205,11 @@ o en la máquina de azure quedando de la siguiente forma:
 
 ### Buscar e instalar una imagen que incluya MongoDB.
 
+Ahora instalamos mongoDB usando lo siguiente:
 
 ![Tema5](http://ubuntuone.com/0XJcl4tNqsqKIkeoqvpsRK)
 
+Finalmente, vemos lo que tenemos instalado:
 ![Tema5](http://ubuntuone.com/1EfLO00LVyIJBexFTQRuSM)
 
 
