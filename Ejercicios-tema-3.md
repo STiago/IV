@@ -196,9 +196,13 @@ o en la máquina de azure quedando de la siguiente forma:
 
 Inicialmente, usamos azure e instalamos ubuntu y centos como se muestra en las siguientes capturas:
 
+`sudo docker pull ubuntu`
+
 
 ![Tema5](http://ubuntuone.com/1FXA2h2MeQz1tCnZaBXy6i)
 
+
+`sudo docker pull centos`
 
 ![Tema5](http://ubuntuone.com/00sse3nBnYurdoM6rynK8B)
 
@@ -207,11 +211,14 @@ Inicialmente, usamos azure e instalamos ubuntu y centos como se muestra en las s
 
 Ahora instalamos mongoDB usando lo siguiente:
 
+`sudo docker pull jonhadfield/mongodb`
+
 ![Tema5](http://ubuntuone.com/0XJcl4tNqsqKIkeoqvpsRK)
 
 
 Finalmente, vemos lo que tenemos instalado:
 
+`sudo docker images`
 
 ![Tema5](http://ubuntuone.com/1EfLO00LVyIJBexFTQRuSM)
 
