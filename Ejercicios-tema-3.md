@@ -209,7 +209,10 @@ Ahora instalamos mongoDB usando lo siguiente:
 
 ![Tema5](http://ubuntuone.com/0XJcl4tNqsqKIkeoqvpsRK)
 
+
 Finalmente, vemos lo que tenemos instalado:
+
+
 ![Tema5](http://ubuntuone.com/1EfLO00LVyIJBexFTQRuSM)
 
 
