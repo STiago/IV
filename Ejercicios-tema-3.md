@@ -182,6 +182,14 @@ Continuamos en consola haciendo `sudo apt-get install lxc-docker` sin olvidarnos
 
 Finalmente ya solo tenemos que introducir `sudo docker -d &` y queda instalado docker.
 
+o en la máquina de azure quedando de la siguiente forma:
+
+![Tema5](http://ubuntuone.com/4rTlGEnNr1ZkIQn22lv6PL)
+
+![Tema5](http://ubuntuone.com/5Bcn3h0TCR0wgE9MdpHc4y)
+
+
+
 ## EJERCICIO 11
 ### Instalar a partir de docker una imagen alternativa de Ubuntu y alguna adicional, por ejemplo de CentOS.
 ![Tema5](http://ubuntuone.com/1XBiZOu)
