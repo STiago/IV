@@ -226,10 +226,27 @@ Finalmente, vemos lo que tenemos instalado:
 
 ## EJERCICIO 12
 ### Crear un usuario propio e instalar nginx en el contenedor creado de esta forma
+Para realizarlo, debemos de usar :
+
+`sudo docker run -i -t ubuntu /bin/bash`
+
+`sudo docker ps`
 
 ![Tema5](http://ubuntuone.com/0s7n1vSNsUoYFJk7g4x0Y9)
 
+
+Seguidamente, procedemos a crear en nuestro contenedor nuestro usuario como se muestra a continuación en la siguiente captua y usando las siguientes líneas de cmandos:
+
+`useradd -d /home/usudocker -m usudocker`
+`passwd usudocker`
+`adduser usudocker sudo`
+`login usudocker`
+
+
 ![Tema5](http://ubuntuone.com/0tAte0LxXwWue8w5R5zXV2)
+
+
+Luego instalamos ngix usando `sudo apt-get install software-properties-common`.
 
 
 ## EJERCICIO 13
