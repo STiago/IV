@@ -26,7 +26,20 @@ o simplemente ejecutamos en nuestra máquina la siguiente línea:
 
 En YAML sería de la siguiente forma:
 
-`{uno: "dos", tres: [4, 5, "Seis", {siete: 8, nueve: [10, 11] } ] }`
+> ```
+> --- # 
+>  tres:
+>    - 4
+>    - 5
+>    - "Seis"
+>    -
+>      siete: 8
+>      nueve:
+>        - "Object"
+>  uno: "dos"
+
+> ---
+> ```
 
 
 ## EJERCICIO 4
