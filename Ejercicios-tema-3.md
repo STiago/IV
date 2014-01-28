@@ -269,13 +269,34 @@ Para crear a partir del contenedor anterior una imágen persistente, primero hac
 ![Tema5](http://ubuntuone.com/27tIye4EpGustnpIn6iK93)
 
 
+
 Finalmente, usamos commit con el ID de nuestro contenedor y creamos una imágen persistente con el estado actual de este. Y a modo de comprobación, si listamos todas las imágenes, nos va a aparecer la imagen que hemos creado. 
+
+
 ![Tema5](http://ubuntuone.com/4klT9mM8Nb1R1fuzyC4Uqr)
 
 
 
 ## EJERCICIO 14
 ### Crear una imagen con las herramientas necesarias para DAI sobre un sistema operativo de tu elección.
+
+En primer lugar, creamos un archivo dockerfile el cual nos va a crear la imagen y nos va a instalar los paquetes que vamos a usar quedando como muestra la siguiente captura:
+
+
+![Tema5](http://ubuntuone.com/3q0miP9U6LBBu4NUonx9rA)
+
+A continuación, pasamos a crear la imágen con `sudo docker build .`
+
+Y seguidamente comprobamos que está usando `sudo docker images`.
+
+
+![Tema5](http://ubuntuone.com/1hBSema9QMQ5ded11L7Z6s)
+
+
+Finalmente comprobamos que funciona a la perfección arrancandola y usando python por ejemplo como muestra el siguiente volcado de pantalla:
+
+
+![Tema5](http://ubuntuone.com/3Q6KliBDJBKGruHbB3Tj1B)
 
 
 
