@@ -261,6 +261,17 @@ Luego instalamos nginx usando `sudo apt-get install software-properties-common` 
 ## EJERCICIO 13
 ### Crear a partir del contenedor anterior una imagen persistente con commit.
 
+Para crear a partir del contenedor anterior una imágen persistente, primero hacemos `sudo docker ps -notrunc`y seguidamente un inspect para obtener la información que queremos.
+
+
+![Tema5](http://ubuntuone.com/6k2axVonzhTcndDiXowQvp)
+
+![Tema5](http://ubuntuone.com/27tIye4EpGustnpIn6iK93)
+
+
+Finalmente, usamos commit con el ID de nuestro contenedor y creamos una imágen persistente con el estado actual de este. Y a modo de comprobación, si listamos todas las imágenes, nos va a aparecer la imagen que hemos creado. 
+![Tema5](http://ubuntuone.com/4klT9mM8Nb1R1fuzyC4Uqr)
+
 
 
 ## EJERCICIO 14
