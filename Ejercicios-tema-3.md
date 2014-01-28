@@ -232,7 +232,7 @@ Para realizarlo, debemos de usar :
 
 `sudo docker ps`
 
-![Tema5](http://ubuntuone.com/0s7n1vSNsUoYFJk7g4x0Y9)
+![Tema5](http://ubuntuone.com/4l6kPZJN7mb823rXBT9umf)
 
 
 Seguidamente, procedemos a crear en nuestro contenedor nuestro usuario como se muestra a continuación en la siguiente captua y usando las siguientes líneas de cmandos:
@@ -243,15 +243,18 @@ Seguidamente, procedemos a crear en nuestro contenedor nuestro usuario como se m
 `login usudocker`
 
 
-![Tema5](http://ubuntuone.com/0tAte0LxXwWue8w5R5zXV2)
+![Tema5](http://ubuntuone.com/15kM5TfrqxdNONdoYQ9INd)
 
+
+![Tema5](http://ubuntuone.com/4XkwVCBqNqnHAfKjIugnxG)
 
 Luego instalamos nginx usando `sudo apt-get install software-properties-common` añadimos el repositorio con `add-apt-repository ppa:nginx/stable` y finalmente instalamos nginx tras hacer un update usando :
 
 `sudo apt-get install nginx`
 
+![Tema5](http://ubuntuone.com/2f89mtyEsTG7zedh00cvfL)
 
-![Tema5](http://ubuntuone.com/6k1hJjQFx917LMzjVq1LKD)
+![Tema5](http://ubuntuone.com/28gIo5KPtbhe8yp2yaEdlr)
 
 
 ## EJERCICIO 13
