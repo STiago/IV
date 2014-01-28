@@ -252,9 +252,10 @@ Luego instalamos nginx usando `sudo apt-get install software-properties-common` 
 
 `sudo apt-get install nginx`
 
-![Tema5](http://ubuntuone.com/2f89mtyEsTG7zedh00cvfL)
-
 ![Tema5](http://ubuntuone.com/28gIo5KPtbhe8yp2yaEdlr)
+
+
+![Tema5](http://ubuntuone.com/2f89mtyEsTG7zedh00cvfL)
 
 
 ## EJERCICIO 13
