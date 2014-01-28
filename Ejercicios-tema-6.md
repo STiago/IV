@@ -9,6 +9,9 @@ Y una vez comprobado que esta insalado, procedemos a instalar chef con `gem inst
 
 ![Tema6](http://ubuntuone.com/0LgmXYqd3KeqlYXXyKKBxx)
 
+o simplemente ejecutamos en nuestra máquina la siguiente línea:
+
+`curl -L https://www.opscode.com/chef/install.sh | bash`
 
 ## EJERCICIO 2
 ### Crear una receta para instalar nginx, tu editor favorito y algún directorio y fichero que uses de forma habitual.
