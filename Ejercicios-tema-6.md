@@ -24,5 +24,25 @@ o simplemente ejecutamos en nuestra máquina la siguiente línea:
 ### Escribir en YAML la siguiente estructura de datos en JSON:
 { uno: &#39;dos&#39;,tres: [ 4, 5, &#39;Seis&#39;, { siete: 8, nueve: [Object] } ] }
 
+En YAML sería de la siguiente forma:
+
+`{uno: "dos", tres: [4, 5, "Seis", {siete: 8, nueve: [10, 11] } ] }`
 
 
+## EJERCICIO 4
+
+
+
+
+## EJERCICIO 5
+
+
+
+## EJERCICIO 6
+
+
+
+## EJERCICIO 7
+
+
+## EJERCICIO 8
