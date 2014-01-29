@@ -51,7 +51,7 @@ En YAML sería de la siguiente forma:
 
 
 ## EJERCICIO 6
-
+Instalar una máquina virtual Debian usando Vagrant y conectar con ella.
 
 
 ## EJERCICIO 7
