@@ -55,6 +55,9 @@ Instalar una máquina virtual Debian usando Vagrant y conectar con ella.
 
 
 ## EJERCICIO 7
-
+### Crear un script para provisionar `nginx` o cualquier otro servidor
+web que pueda ser útil para alguna otra práctica
 
 ## EJERCICIO 8
+### Configurar tu máquina virtual usando vagrant con el provisionador
+ansible
