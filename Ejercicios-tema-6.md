@@ -58,6 +58,16 @@ Seguidamente, en nuestra máquina anfitriona introducimos lo siguiente:
 `export ANSIBLE_HOSTS=~/ansible_hosts`
 `ansible-playbook playbook.yml --ask-pass -u victoria`
 
+Quedando de la siguiente forma:
+
+![Tema6](http://ubuntuone.com/14pxhjeWeBbmbrHWLWdhXm)
+
+
+Y finalmente, abrimos nuestro navegador y podremos ver que nuestra aplicación se encuentra ejecutandose:
+
+![Tema6](http://ubuntuone.com/0alDyvrQbLTdFcRmAWr7fS)
+
+
 ## EJERCICIO 6
 Instalar una máquina virtual Debian usando Vagrant y conectar con ella.
 
