@@ -71,6 +71,26 @@ Y finalmente, abrimos nuestro navegador y podremos ver que nuestra aplicación s
 ## EJERCICIO 6
 Instalar una máquina virtual Debian usando Vagrant y conectar con ella.
 
+Inicialmente, nos instalamos en nuestra máquina anfitriona vagrant usando:
+
+`sudo apt-get install vagrant`
+
+Tras instalarlo, procedemos a realizar los siguientes pasos:
+
+`vagrant box add {title} {url}`
+`vagrant init {title}`
+`vagrant up`
+
+y nos quedaria finalmente como se muestra en las siguientes volcados:
+
+![Tema6](http://ubuntuone.com/1bFtNiLMltht4iXj2nMhjY)
+
+Y conectar a la máquina con ssh :
+
+`vagrant ssh`
+
+![Tema6](http://ubuntuone.com/5T8AJ8E7A6mcuZNsEB4rw0)
+
 
 ## EJERCICIO 7
 ### Crear un script para provisionar `nginx` o cualquier otro servidor
