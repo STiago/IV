@@ -49,6 +49,14 @@ En YAML sería de la siguiente forma:
 ## EJERCICIO 5
 ### Desplegar la aplicación de DAI con todos los módulos necesarios usando un playbook de Ansible.
 
+En primer lugar, nos creamos el archivo playbook con extensión yml en el cual introducimos lo siguiente:
+
+![Tema6](http://ubuntuone.com/4UaSuda6ZvE1pf8nrkhexu)
+
+Seguidamente, en nuestra máquina anfitriona introducimos lo siguiente:
+
+`export ANSIBLE_HOSTS=~/ansible_hosts`
+`ansible-playbook playbook.yml --ask-pass -u victoria`
 
 ## EJERCICIO 6
 Instalar una máquina virtual Debian usando Vagrant y conectar con ella.
