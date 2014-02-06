@@ -157,7 +157,7 @@ En primer lugar, editamos el fichero ***Vagrantfile** dejandolo como se muestra 
 
 Tras realizas las modificaciones anteriores, ejecutamos en nuestra máquina `vagrant provision` y con ello se ejecutan los comandos que se van a aprovisionar.
 
-![Tema6-ejercicio7](ht)
+![Tema6-ejercicio7](https://dl.dropbox.com/s/tecldglnf22x481/ejejerciio7.png)
 
 
 ## EJERCICIO 8
