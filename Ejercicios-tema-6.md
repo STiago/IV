@@ -140,18 +140,24 @@ web que pueda ser útil para alguna otra práctica
 En primer lugar, editamos el fichero ***Vagrantfile** dejandolo como se muestra a continuación:
 
 ``` 
-> Vagrant.configure("2") do |config|
-> config.vm.box = "victoria"
->  config.vm.provider "virtualbox" do |v|
->    v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
->    v.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
->  end
->  config.vm.provision "shell",
->    inline: "sudo apt-get install -y nginx && sudo service nginx restart && sudo service nginx status"
->
-> end
+ # -*- mode: ruby -*-
+ # vi: set ft=ruby :
+
+ Vagrant.configure("2") do |config|
+ config.vm.box = "victoria"
+  config.vm.provider "virtualbox" do |v|
+    v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+    v.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
+  end
+  config.vm.provision "shell",
+    inline: "sudo apt-get install -y nginx && sudo service nginx restart && sudo service nginx status"
+
+ end
 ``` 
 
+Tras realizas las modificaciones anteriores, ejecutamos en nuestra máquina `vagrant provision` y con ello se ejecutan los comandos que se van a aprovisionar.
+
+![Tema6-ejercicio7](ht)
 
 
 ## EJERCICIO 8
