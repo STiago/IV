@@ -16,13 +16,21 @@ o simplemente ejecutamos en nuestra máquina la siguiente línea:
 ## EJERCICIO 2
 ### Crear una receta para instalar nginx, tu editor favorito y algún directorio y fichero que uses de forma habitual.
 
+En primer lugar, creamos nuestra estructura de carpetas como solemos hacer (con el comando mkdir seguido del nombre que le vayamos a dar a los directorios), después dentro ya de nuestro directorio, procedemos a crearnos el archivo "miReceta.rb" el cual contendrá nuestra receta, contenido que se corresponde con la siguiente captura de pantalla:
+
 ![Tema6](http://ubuntuone.com/75fpt3NPBBW6AyEMFQBLac)
+
+El siguiente paso es crear en el nivel de chef el archibo en json y el archivo solo.rb (el primero refiere nuestra receta y el segundo indica donde está la receta y el archivo json, y además se encarga de ejecutar la receta)
 
 ![Tema6](http://ubuntuone.com/5H0GEw7mp872tWM3fG6b7r)
 
 ![Tema6](http://ubuntuone.com/6YTTZPyAUhLd5UDGG3Zc3g)
 
+Seguidamente lanzamos la orden `sudo chef-solo -c chef/solo.rb` la cual nos mostrará lo siguiente si se han realizado correctamente todos los pasos anteriores.
+
 ![Tema6](http://ubuntuone.com/7EhyqPlWblkO2Ie40dYklZ)
+
+Ya estaría todo terminado, solo nos queda probar que la receta funciona y nos instala todo lo que hemos introducido en ella correctamente.
 
 ![Tema6](http://ubuntuone.com/7T3e9W3XrQ9Yl2MEwg4n9r)
 
