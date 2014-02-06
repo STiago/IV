@@ -16,6 +16,15 @@ o simplemente ejecutamos en nuestra máquina la siguiente línea:
 ## EJERCICIO 2
 ### Crear una receta para instalar nginx, tu editor favorito y algún directorio y fichero que uses de forma habitual.
 
+![Tema6](http://ubuntuone.com/75fpt3NPBBW6AyEMFQBLac)
+
+![Tema6](http://ubuntuone.com/5H0GEw7mp872tWM3fG6b7r)
+
+![Tema6](http://ubuntuone.com/6YTTZPyAUhLd5UDGG3Zc3g)
+
+![Tema6](http://ubuntuone.com/7EhyqPlWblkO2Ie40dYklZ)
+
+![Tema6](http://ubuntuone.com/7T3e9W3XrQ9Yl2MEwg4n9r)
 
 
 
