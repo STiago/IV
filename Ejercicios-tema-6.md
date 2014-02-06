@@ -137,6 +137,22 @@ Y conectar a la máquina con ssh :
 ### Crear un script para provisionar `nginx` o cualquier otro servidor
 web que pueda ser útil para alguna otra práctica
 
+En primer lugar, editamos el fichero ***Vagrantfile** dejandolo como se muestra a continuación:
+
+``` 
+> Vagrant.configure("2") do |config|
+> config.vm.box = "victoria"
+>  config.vm.provider "virtualbox" do |v|
+>    v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+>    v.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
+>  end
+>  config.vm.provision "shell",
+>    inline: "sudo apt-get install -y nginx && sudo service nginx restart && sudo service nginx status"
+>
+> end
+``` 
+
+
 
 ## EJERCICIO 8
 ### Configurar tu máquina virtual usando vagrant con el provisionador
