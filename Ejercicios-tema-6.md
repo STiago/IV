@@ -54,6 +54,16 @@ En YAML sería de la siguiente forma:
 ## EJERCICIO 4
 ### Desplegar los fuentes de la aplicación de DAI o cualquier otra aplicación que se encuentre en un servidor git público en la máquina virtual Azure (o una máquina virtual local) usando ansible.
 
+![Tema6](http://ubuntuone.com/1ADYpCoerrWUWIXBfLDO7O)
+
+![Tema6](http://ubuntuone.com/3k61J2ofJemgBsOovQpS7y)
+
+![Tema6](http://ubuntuone.com/5ODQV45JN9xwfutpFDzQ2S)
+
+![Tema6](http://ubuntuone.com/7Wef1yaLAyYHJ9yP4p802U)
+
+![Tema6](http://ubuntuone.com/4Ch1wWfQXFdzs6fgrHBMlo)
+
 
 ## EJERCICIO 5
 ### Desplegar la aplicación de DAI con todos los módulos necesarios usando un playbook de Ansible.
