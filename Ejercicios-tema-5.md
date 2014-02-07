@@ -86,14 +86,6 @@ Y ya vemos ubuntu server funcionando correctamente:
 ![Tema5](http://ubuntuone.com/0GWsYFZp5Z9YicFwgTD8cu)
 
 
-## EJERCICIO 3
-
-### Crear un benchmark de velocidad de entrada salida y comprobar la diferencia entre usar paravirtualización y arrancar la máquina virtual simplemente con qemu-system-x86_64 -hda /media/Backup/Isos/discovirtual.img
-
-
-
-
-
 ## EJERCICIO 4
 
 ### Crear una máquina virtual Linux con 512 megas de RAM y entorno gráfico LXDE a la que se pueda acceder mediante VNC y ssh.
@@ -197,11 +189,6 @@ PASOS:
 6. Finalmente abrimos nuestro navegador seguido de la ip de nuestra máquina y nos saldra la pagina con el index de nginx.
 
 
-
-
-## EJERCICIO 6
-
-### Usar juju para hacer el ejercicio anterior.
 
 
 
