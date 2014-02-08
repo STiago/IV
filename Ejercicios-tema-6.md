@@ -162,4 +162,19 @@ Tras realizas las modificaciones anteriores, ejecutamos en nuestra máquina `vag
 
 ## EJERCICIO 8
 ### Configurar tu máquina virtual usando vagrant con el provisionador
-ansible
+
+Comenzamos la configuración añadiendo en el fichero ansible_host la IP de nuestra máquina como se muestra a continuación:
+
+```
+[vagrant]
+192.168.1.36
+
+```
+El siguiente paso es indicarle a Ansible que tiene que usar este fichero usando `export ANSIBLE_HOSTS=~/ansible_hosts` y posteriormente introduciendo la linea `config.vm.network :private_network, ip: "192.168.1.36" ` con una IP desde la que podamos acceder desde nuestro ordenador todo ello en el fichero Vagrantfile.
+
+Playbook
+
+
+
+
+
