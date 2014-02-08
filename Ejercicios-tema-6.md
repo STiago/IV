@@ -168,11 +168,16 @@ Comenzamos la configuración añadiendo en el fichero ansible_host la IP de nues
 ```
 [vagrant]
 192.168.1.36
-
 ```
 El siguiente paso es indicarle a Ansible que tiene que usar este fichero usando `export ANSIBLE_HOSTS=~/ansible_hosts` y posteriormente introduciendo la linea `config.vm.network :private_network, ip: "192.168.1.36" ` con una IP desde la que podamos acceder desde nuestro ordenador todo ello en el fichero Vagrantfile.
 
-Playbook
+Por lo tanto el fichero Vagrant quedará como sigue:
+
+![Tema6-ejercicio7]()
+
+Ahora, nos creamos el playbook para que Ansible que nos instale en la máquina Nginx. El fichero playbook quedaría con el siguiente contenido:
+
+![Tema6-ejercicio7](http://ubuntuone.com/0xtBuucj4cN88DN0nSdsAs)
 
 
 
