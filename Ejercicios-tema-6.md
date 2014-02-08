@@ -173,13 +173,20 @@ El siguiente paso es indicarle a Ansible que tiene que usar este fichero usando 
 
 Por lo tanto el fichero Vagrant quedará como sigue:
 
-![Tema6-ejercicio7]()
+![Tema6-ejercicio7](http://ubuntuone.com/2Wre8oX4Zpj2HOGECb2hLs)
 
 Ahora, nos creamos el playbook para que Ansible que nos instale en la máquina Nginx. El fichero playbook quedaría con el siguiente contenido:
 
 ![Tema6-ejercicio7](http://ubuntuone.com/0xtBuucj4cN88DN0nSdsAs)
 
 
+A continuación, procedemos a aprovisionar la máquina al igual que hemos hecho en el ejercicio anterior, lanzando por línea de comandos:
+
+`vagrant provision`
+
+Y ya finalmente, solo queda acceder a nuestro navegador introduciendo la IP y veremos como nos muestra Nginx funcionando correctamente:
+
+![Tema6-ejercicio7]()
 
 
 
