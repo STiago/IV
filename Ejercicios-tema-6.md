@@ -184,6 +184,8 @@ A continuación, procedemos a aprovisionar la máquina al igual que hemos hecho 
 
 `vagrant provision`
 
+![Tema6-ejercicio7](https://www.dropbox.com/s/rtrqp4xlw9vsf1s/ejercicio8_tema6_3.png)
+
 Y ya finalmente, solo queda acceder a nuestro navegador introduciendo la IP y veremos como nos muestra Nginx funcionando correctamente:
 
 ![Tema6-ejercicio7]()
