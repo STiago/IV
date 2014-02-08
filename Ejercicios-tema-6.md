@@ -188,7 +188,7 @@ A continuación, procedemos a aprovisionar la máquina al igual que hemos hecho 
 
 Y ya finalmente, solo queda acceder a nuestro navegador introduciendo la IP y veremos como nos muestra Nginx funcionando correctamente:
 
-![Tema6-ejercicio7]()
+![Tema6-ejercicio7](https://dl.dropbox.com/s/m226nqn6hmnnvq4/pant.png)
 
 
 
