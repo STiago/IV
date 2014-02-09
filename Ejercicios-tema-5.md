@@ -180,7 +180,30 @@ PASOS:
                 
 ![Tema5](https://dl.dropbox.com/s/uh6l32s1ft6kf2h/pra8%28service%20restart%20nginx%29.png)
                 
-                
+
+Ahora para conectarnos correctamente a la máquina  usando VNC debemos de instalar en la máquina anfitriona el cliente VNC como se muestra a continuación:
+
+
+![Tema5](http://ubuntuone.com/1fl0wB4Ejxrhj1WHUsesDl)
+
+
+A continuación nos conectamos a nuestra máquina virtual usando el servicio VNC, para llo usamos la IP de la NAT de nuestra máquina.
+
+Basta con hacer ifconfig y nos la mostrará:
+
+
+![Tema5](http://ubuntuone.com/1UVmK7Lx14M6GZLyZ3Wn7P)
+
+virbr0 : 192.168.122.1
+
+A continuación, procedemos a arrancar y conectarnos a nuestra máquina virtual como sigue:
+
+`qemu-system-x86_64 -boot order=c -drive file=Lubuntu-hdd.img,if=virtio -m 512M -vnc :1`
+`vinagre 192.168.122.1:5901`
+
+
+![Tema5]()
+
                 
 5. Lanzamos el servicio nginx:
                 
