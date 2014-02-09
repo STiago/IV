@@ -142,10 +142,6 @@ A continuación, procedemos a arrancar y conectarnos a nuestra máquina virtual 
 `vinagre 192.168.122.1:5901`
 
 
-![Tema5](http://ubuntuone.com/68sTnUASa7EQvBFJf3z0Tw)
-
-
-
 ## EJERCICIO 5
 
 ### Crear una máquina virtual ubuntu e instalar en ella un servidor nginx para poder acceder mediante web.
